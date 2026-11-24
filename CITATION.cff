@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software in research, cite this software record."
+title: OpenAudioKit
+type: software
+authors:
+  - name: OpenAudioKit contributors
+version: 0.2.0
+license: MIT

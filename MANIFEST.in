@@ -1,0 +1,7 @@
+include README.pt-BR.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md CHANGELOG.md ROADMAP.md
+include CITATION.cff mkdocs.yml
+recursive-include docs *.md *.svg *.png
+recursive-include examples *.py *.json
+recursive-include benchmarks *.py
+recursive-include tests *.py
+recursive-include tools *.py

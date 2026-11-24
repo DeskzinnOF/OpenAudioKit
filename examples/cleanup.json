@@ -1,0 +1,7 @@
+{
+  "operations": [
+    {"name": "filter", "params": {"kind": "highpass", "frequency": 35}},
+    {"name": "fade", "params": {"fade_in_seconds": 0.02, "fade_out_seconds": 0.08}},
+    {"name": "normalize_peak", "params": {"target_dbfs": -1}}
+  ]
+}

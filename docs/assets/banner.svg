@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350">
+<title>OpenAudioKit project banner</title>
+<rect width="1200" height="350" fill="#11171a"/>
+<path d="M52 183h19l11-26 17 51 17-60 13 35h17" fill="none" stroke="#55e0b4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="182" y="185" font-family="system-ui,sans-serif" font-weight="700" font-size="66" fill="#f1f6f4">OpenAudioKit</text>
+<text x="185" y="230" font-family="system-ui,sans-serif" font-size="24" fill="#acc6bd">Open-source audio analysis, processing and quality control toolkit.</text>
+</svg>

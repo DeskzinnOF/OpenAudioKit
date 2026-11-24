@@ -1,0 +1,38 @@
+site_name: OpenAudioKit
+site_description: Open-source audio analysis, processing and quality control toolkit.
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Light theme
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Dark theme
+nav:
+  - Home: index.md
+  - Português: pt-br.md
+  - Installation: installation.md
+  - CLI tutorial: tutorial.md
+  - CLI reference: cli.md
+  - Python API: python-api.md
+  - Measurement methods: measurement.md
+  - Scientific audit: scientific-audit.md
+  - Desktop: desktop.md
+  - Interface desktop em português: desktop-pt.md
+  - Interface desktop em português: desktop-pt.md
+  - REST API: rest.md
+  - Architecture: architecture.md
+  - Project tree: project-tree.md
+  - Project tree: project-tree.md
+  - Development and troubleshooting: development.md
+  - Releases: releasing.md
+  - Release checklist: release-checklist.md
