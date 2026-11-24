@@ -48,7 +48,10 @@ def test_block_k_weighting_matches_continuous_filter_state():
     rng = np.random.default_rng(2026)
     audio = Audio(rng.uniform(-0.4, 0.4, (180000, 2)), 48000)
     weighted = signal.sosfilt(np.array([_SHELF, _RLB]), audio.samples, axis=0)
-    np.testing.assert_array_equal(_weighted_power(audio), np.sum(weighted**2, axis=1))
+    # The fused channel sum on ARM can round differently from squaring then summing.
+    np.testing.assert_allclose(
+        _weighted_power(audio), np.sum(weighted**2, axis=1), rtol=4 * np.finfo(float).eps, atol=0
+    )
 
 
 @pytest.mark.parametrize("kind", ["lowpass", "highpass"])

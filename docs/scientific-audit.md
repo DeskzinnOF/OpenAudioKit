@@ -10,7 +10,7 @@ python -m pytest tests/test_analysis.py tests/test_dsp.py tests/test_spectral.py
 | --- | --- |
 | Time-domain levels | Closed-form sine RMS, sample peak, crest factor and opposite-polarity stereo. |
 | Programme loudness | De Man K-weighting in pyloudnorm at 44.1, 48 and 96 kHz, with a tolerance of 0.01 LU. Synthetic calibration tones, gated quiet sections, momentary timing and synthetic loudness steps exercise the other outputs. |
-| K-weighting block boundaries | The same biquads run once over a continuous stereo buffer using SciPy, compared bit for bit against the block implementation. |
+| K-weighting block boundaries | The same biquads run once over a continuous stereo buffer using SciPy. The comparison allows four double-precision machine epsilons of relative error for rounding in channel summation. |
 | True peak | Quarter-rate sine with known intersample amplitude and a short edge taper. The implementation estimates intersample peaks by interpolating at 4× the sample rate. |
 | Filters and EQ | Long sinusoidal tests check rejection, Butterworth amplitude of 1/√2 at cutoff and peaking EQ gain at its centre frequency. |
 | Dynamics | Step signals check the compressor's exponential attack and release. Separate signals check the sample limiter ceiling and gate attenuation. |
