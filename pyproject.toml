@@ -34,6 +34,12 @@ openaudiokit = "openaudiokit.cli:main"
 openaudiokit-gui = "openaudiokit.gui:main"
 openaudiokit-api = "openaudiokit.api:main"
 
+[project.urls]
+Repository = "https://github.com/DeskzinnOF/OpenAudioKit"
+Documentation = "https://deskzinnof.github.io/OpenAudioKit/"
+Issues = "https://github.com/DeskzinnOF/OpenAudioKit/issues"
+Changelog = "https://github.com/DeskzinnOF/OpenAudioKit/blob/main/CHANGELOG.md"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 

@@ -1,10 +1,10 @@
 # OpenAudioKit
 
-![Banner do OpenAudioKit](docs/assets/banner.svg)
+![Banner do OpenAudioKit](https://raw.githubusercontent.com/DeskzinnOF/OpenAudioKit/main/docs/assets/banner.svg)
 
 OpenAudioKit é uma biblioteca Python com licença MIT para medir, processar e verificar áudio digital offline. Destina-se a produtores, engenheiros, pesquisadores e desenvolvedores. Use-a para inspecionar arquivos antes de uma entrega, comparar duas versões de uma mixagem ou aplicar a mesma cadeia de DSP a vários arquivos.
 
-[Read in English](README.md) · [Instalação](docs/installation.md) · [API Python](docs/python-api.md) · [Métodos de medição](docs/measurement.md)
+[Read in English](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/README.md) · [Instalação](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/installation.md) · [API Python](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/python-api.md) · [Métodos de medição](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/measurement.md)
 
 ## Instalação pelo código-fonte
 
@@ -16,9 +16,9 @@ Para instalar só a biblioteca, use `python -m pip install -e .`. Inclua o extra
 
 ## Desktop
 
-![Captura da comparação A/B em português](docs/assets/desktop-comparison-pt.png)
+![Captura da comparação A/B em português](https://raw.githubusercontent.com/DeskzinnOF/OpenAudioKit/main/docs/assets/desktop-comparison-pt.png)
 
-Compare duas gravações visualmente e pelo player, com compensação opcional de loudness. Renderize uma prévia para ouvir os efeitos de uma cadeia DSP antes de exportar. [Guia desktop](docs/desktop.md)
+Compare duas gravações visualmente e pelo player, com compensação opcional de loudness. Renderize uma prévia para ouvir os efeitos de uma cadeia DSP antes de exportar. [Guia desktop](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/desktop.md)
 
 ## Primeira análise
 
@@ -40,7 +40,7 @@ A interface `openaudiokit-gui` exibe waveform, espectrograma, medidores e compar
 
 O áudio decodificado fica em memória. Algumas medições limitam os buffers de trabalho. Loudness K-weighted exige áudio mono ou estéreo com taxa de pelo menos 8 kHz. A documentação explica as janelas, os gates e o alcance da validação.
 
-Consulte o [guia de contribuição](CONTRIBUTING.md), a [política de segurança](SECURITY.md) e as [instruções de publicação](docs/releasing.md).
+Consulte o [guia de contribuição](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/CONTRIBUTING.md), a [política de segurança](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/SECURITY.md) e as [instruções de publicação](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/releasing.md).
 
 ## Uso em Python
 
@@ -53,4 +53,4 @@ report = inspect(load_audio("demo.wav"))
 write_report("qc.json", report)
 ```
 
-Consulte o [guia em português](docs/pt-br.md), a [arquitetura](docs/architecture.md), a [API REST](docs/rest.md) e a [auditoria científica](docs/scientific-audit.md). O código original usa a [licença MIT](LICENSE).
+Consulte o [guia em português](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/pt-br.md), a [arquitetura](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/architecture.md), a [API REST](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/rest.md) e a [auditoria científica](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/scientific-audit.md). O código original usa a [licença MIT](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/LICENSE).

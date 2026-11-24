@@ -6,3 +6,5 @@ authors:
   - name: OpenAudioKit contributors
 version: 0.2.0
 license: MIT
+repository-code: https://github.com/DeskzinnOF/OpenAudioKit
+url: https://deskzinnof.github.io/OpenAudioKit/

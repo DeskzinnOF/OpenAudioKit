@@ -1,10 +1,10 @@
 # OpenAudioKit
 
-![OpenAudioKit project banner](docs/assets/banner.svg)
+![OpenAudioKit project banner](https://raw.githubusercontent.com/DeskzinnOF/OpenAudioKit/main/docs/assets/banner.svg)
 
 OpenAudioKit is an MIT-licensed Python toolkit for offline audio measurement, DSP and quality control for producers, engineers, researchers and developers. It can check individual deliverables, compare two masters or run a repeatable processing chain over a directory of recordings.
 
-[Leia em português](README.pt-BR.md) · [Installation](docs/installation.md) · [Python API](docs/python-api.md) · [Measurement methods](docs/measurement.md)
+[Leia em português](README.pt-BR.md) · [Installation](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/installation.md) · [Python API](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/python-api.md) · [Measurement methods](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/measurement.md)
 
 ## Install from source
 
@@ -16,9 +16,9 @@ Use `python -m pip install -e .` for the Python library. Add `gui` for the PyQt6
 
 ## Desktop
 
-![Desktop screenshot](docs/assets/desktop.png)
+![Desktop screenshot](https://raw.githubusercontent.com/DeskzinnOF/OpenAudioKit/main/docs/assets/desktop.png)
 
-Open two recordings for visual and audible A/B comparison with optional level compensation. Review a DSP chain against a rendered preview before exporting. [Desktop guide](docs/desktop.md)
+Open two recordings for visual and audible A/B comparison with optional level compensation. Review a DSP chain against a rendered preview before exporting. [Desktop guide](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/desktop.md)
 
 ## Run a workflow
 
@@ -52,6 +52,6 @@ write_report("qc.json", report)
 
 The library stores decoded audio in memory. Selected measurements use bounded working buffers. K-weighted loudness is limited to mono and stereo at 8 kHz and above. True peak is an oversampled estimate. See the measurement notes for windowing, gates and validation scope.
 
-See [contributing](CONTRIBUTING.md), [security reporting](SECURITY.md), [roadmap](ROADMAP.md) and [release instructions](docs/releasing.md).
+See [contributing](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/CONTRIBUTING.md), [security reporting](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/SECURITY.md), [roadmap](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/ROADMAP.md) and [release instructions](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/releasing.md).
 
-Read the [architecture](docs/architecture.md), [REST API](docs/rest.md), [scientific audit](docs/scientific-audit.md), and [release checklist](docs/release-checklist.md). The original code uses the [MIT license](LICENSE).
+Read the [architecture](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/architecture.md), [REST API](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/rest.md), [scientific audit](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/scientific-audit.md), and [release checklist](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/docs/release-checklist.md). The original code uses the [MIT license](https://github.com/DeskzinnOF/OpenAudioKit/blob/main/LICENSE).
